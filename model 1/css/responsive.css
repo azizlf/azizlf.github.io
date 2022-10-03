@@ -1,0 +1,61 @@
+@media screen and (min-width:1366px) {
+
+
+    .main .MCT-PCORDVR .cover-image {
+        width: 46%;
+        height: 100%;
+        border: .5vw solid #e0cd33;
+        border-radius: 3vw;
+        transform: rotate(45deg);
+        position: absolute;
+        top: -25%;
+        left: -6%;
+        overflow: hidden;
+        pointer-events: none;
+    }
+
+
+    .main .MCT-PCORDVR .box-color {
+        width: 9.5%;
+        height: 17%;
+        background-color: #e0cd33;
+        border-radius: 1.2vw;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 70%;
+        left: 3%;
+    }
+
+    .main .MCT-HOMECTN .footer .header .section .list-icon i{
+
+        background-color: gray;
+        color: white;
+        border-radius: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18.5%;
+        margin-right: 5%;
+        height: 100%;
+        font-size: 1.3vw;
+        cursor: pointer;
+        transition: .4s;
+    
+    }
+
+
+}
+
+
+@media screen and (max-width:480px) {
+    
+    .main{
+        display: none;
+    }
+
+    .mobile-version{
+        display: flex;
+
+    }
+
+}
