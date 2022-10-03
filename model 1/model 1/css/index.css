@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-version{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: 191919;;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-version div{
+ 
+    width: 80%;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    
+}
+
+.mobile-version div i{
+
+    font-size: 10vw;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 100% 100%;
+    overflow: hidden;
+}
+
+.main .MCT-PCORDVR{
+    height: 100%;
+    background-color: #191919;
+    overflow: hidden;
+    position: relative;
+    transition: 0.4s;
+}
+
+.main .MCT-PCORDVR .cover-image{
+    width: 45%;
+    height: 100%;
+    border: .5vw solid #e0cd33;
+    border-radius: 3vw;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -27%;
+    left: -3%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.main .MCT-PCORDVR .cover-image img{
+
+    transform: rotate(-45deg);
+    width: 150%;
+    height: 100%;
+
+}
+
+.main .MCT-PCORDVR .box-color{
+    width: 9.5%;
+    height: 20%;
+    background-color:#e0cd33;
+    border-radius: 1.2vw;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 65%;
+    left: 7%;
+}
+
+.main .MCT-PCORDVR .brand-name{
+    position: absolute;
+    font-size: 5vw;
+    font-weight: 900;
+    color: #e0cd33;
+    right: 15%;
+    top: 20%;
+    text-align: left;
+    width: 30%;
+}
+
+.main .MCT-PCORDVR .description{
+
+    width: 40%;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    color: white;
+    position: absolute;
+    right: 4.7%;
+    top: 34%;
+
+}
+
+.main .MCT-PCORDVR button{
+
+    background-color: #e0cd33;
+    border: none;
+    border-radius: .3vw;
+    cursor: pointer;
+    position: absolute;
+    right: 29.6%;
+    top: 65%;
+    width: 15%;
+    font-size: 1.5vw;
+    padding: 1%;
+    outline: none;
+
+}
+
+.main .MCT-PCORDVR .footer{
+    width: 70%;
+    height: 15%;
+    bottom: 0;
+    right: 1%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .MCT-PCORDVR .footer .contact{
+
+    height: 60%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1vw;
+    transition: 0.4s;
+    cursor: default;
+
+}
+
+.main .MCT-PCORDVR .footer .contact:hover{
+
+    transform: translateY(-10%);
+
+}
+
+.main .MCT-PCORDVR .footer .contact p{
+
+    width: 80%;
+    color: white;
+
+}
+
+.main .MCT-PCORDVR .footer .contact i{
+
+    background-color: #e0cd33;
+    padding: 3%;
+    border-radius: .5vw;
+
+}
+
+.main .MCT-HOMECTN{
+    height: 100%;
+    background-color: white;
+    transition: 0.3s;
+    overflow-y: scroll;
+}
+
+
+.main .MCT-HOMECTN .box{
+
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.main .MCT-HOMECTN .box img{
+
+    max-width: 30%;
+    height: 65%;
+
+}
+.main .MCT-HOMECTN .box p{
+
+    width: 50%;
+    font-size: 1.3vw;
+    color: #1c1c1c;
+
+}
+
+
+.main .MCT-HOMECTN .title-branches{
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #1c1c1c;
+
+}
+
+.main .MCT-HOMECTN .title-branches p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.main .MCT-HOMECTN .title-branches div{
+
+    width: 20%;
+    padding: .08vw;
+    background-color: black;
+
+}
+
+.main .MCT-HOMECTN .location{
+
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main .MCT-HOMECTN .location .box-image{
+
+    width: 25%;
+    height: 80%;
+    text-align: center;
+
+}
+
+.main .MCT-HOMECTN .location .box-image .img{
+
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+
+}
+
+.main .MCT-HOMECTN .location .box-image .img .shadow{
+
+    background-color: rgba(0, 0, 0, 0.585);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.6s;
+
+}
+
+.main .MCT-HOMECTN .location .box-image .img img{
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.main .MCT-HOMECTN .location .box-image .img .shadow div{
+
+    font-size: 2vw;
+    color: white;
+    user-select: none;
+
+}
+
+.main .MCT-HOMECTN .location .box-image .img div .num{
+
+    font-size: 1.1vw;
+
+}
+
+
+.main .MCT-HOMECTN .location .box-image:hover .shadow{
+    opacity: 1;
+}
+
+.main .MCT-HOMECTN .footer{
+
+    width: 100%;
+    height: 60%;
+    background-color: #1c1c1c;
+    
+}
+
+
+.main .MCT-HOMECTN .footer .header{
+
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main .MCT-HOMECTN .footer .header .section{
+
+    height: 60%;
+    width: 20%;
+    padding: 2%;
+    color: white;
+
+}
+
+.main .MCT-HOMECTN .footer .header .section .title{
+
+    font-weight: 600;
+    font-size: 1.5vw;
+
+}
+
+
+.main .MCT-HOMECTN .footer .header .section .hr{
+
+    width: 20%;
+    padding: .4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #e0cd33;
+    
+}
+.main .MCT-HOMECTN .footer .header .section .list{
+
+    padding: 1%;
+    width: 80%;
+
+}
+
+.main .MCT-HOMECTN .footer .header .section .list p{
+
+    font-weight: 100;
+    color: rgb(167, 167, 167);
+    margin-top: 5%;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 1.2vw;
+
+}
+
+.main .MCT-HOMECTN .footer .header .section .list p:hover{
+
+    transform: translateX(3%);
+    color: white;
+
+}
+
+.main .MCT-HOMECTN .footer .header .section .list-icon{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    margin-top: 5%;
+
+}
+
+.main .MCT-HOMECTN .footer .header .section .list-icon i{
+
+    background-color: gray;
+    color: white;
+    border-radius: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    margin-right: 5%;
+    height: 100%;
+    font-size: 1.3vw;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.main .MCT-HOMECTN .footer .header .section .list-icon i:hover{
+    background-color: white;
+    color: #1c1c1c;
+}
+
+.main .MCT-HOMECTN .footer .footer-nav{
+
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    font-weight: 300;
+
+    
+}
+
+.main .MCT-HOMECTN .fa-arrow-left{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 2vw;
+    cursor: pointer;
+}
