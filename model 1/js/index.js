@@ -1,18 +1,1 @@
-var btn = document.getElementById("btn-to-home"),
-    mainPage = document.getElementById("MPG"),
-    homePage = document.getElementById("HPG"),
-    returnBtn = document.getElementById("returnBTN")
-
-btn.addEventListener("click",()=>{
-
-    mainPage.style.transform = "translateX(-100%)"
-    homePage.style.transform = "translateX(-100%)"
-
-})
-
-returnBtn.addEventListener("click",()=>{
-
-    mainPage.style.transform = "translateX(0%)"
-    homePage.style.transform = "translateX(100%)"
-
-})
+var _0x50f616=_0x28f8;(function(_0x526944,_0x3cd1ca){var _0x438e7a=_0x28f8,_0x1a8528=_0x526944();while(!![]){try{var _0xda34ac=-parseInt(_0x438e7a(0x158))/0x1*(-parseInt(_0x438e7a(0x14b))/0x2)+-parseInt(_0x438e7a(0x14d))/0x3*(parseInt(_0x438e7a(0x153))/0x4)+-parseInt(_0x438e7a(0x14c))/0x5*(-parseInt(_0x438e7a(0x147))/0x6)+parseInt(_0x438e7a(0x148))/0x7*(-parseInt(_0x438e7a(0x14a))/0x8)+-parseInt(_0x438e7a(0x156))/0x9*(parseInt(_0x438e7a(0x145))/0xa)+-parseInt(_0x438e7a(0x150))/0xb+parseInt(_0x438e7a(0x159))/0xc;if(_0xda34ac===_0x3cd1ca)break;else _0x1a8528['push'](_0x1a8528['shift']());}catch(_0x469030){_0x1a8528['push'](_0x1a8528['shift']());}}}(_0x3be3,0x2c107));var btn=document[_0x50f616(0x14e)]('btn-to-home'),mainPage=document[_0x50f616(0x14e)](_0x50f616(0x151)),homePage=document[_0x50f616(0x14e)](_0x50f616(0x154)),returnBtn=document['getElementById']('returnBTN');function _0x3be3(){var _0x52c301=['337296xLjApE','addEventListener','240970AqbNhm','translateX(-100%)','1981914phHmnO','498638buHfuv','transform','8PezmWS','2XIQyZi','5BxQjwx','240216fqcqxu','getElementById','translateX(100%)','1280961SmAIBM','MPG','click','4xsoshY','HPG','translateX(0%)','36iNDAXN','style','186205FqtnXT'];_0x3be3=function(){return _0x52c301;};return _0x3be3();}function _0x28f8(_0x257f19,_0x15ac5a){var _0x3be326=_0x3be3();return _0x28f8=function(_0x28f857,_0x5c40d0){_0x28f857=_0x28f857-0x144;var _0x5f5de0=_0x3be326[_0x28f857];return _0x5f5de0;},_0x28f8(_0x257f19,_0x15ac5a);}btn[_0x50f616(0x144)](_0x50f616(0x152),()=>{var _0x123f69=_0x50f616;mainPage[_0x123f69(0x157)][_0x123f69(0x149)]=_0x123f69(0x146),homePage['style'][_0x123f69(0x149)]=_0x123f69(0x146);}),returnBtn[_0x50f616(0x144)]('click',()=>{var _0x5c748=_0x50f616;mainPage[_0x5c748(0x157)]['transform']=_0x5c748(0x155),homePage[_0x5c748(0x157)]['transform']=_0x5c748(0x14f);});
