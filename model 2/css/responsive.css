@@ -1,0 +1,87 @@
+@media screen and (min-width:1600px) {
+    
+    .main .header .container div img{
+
+        width: 45%;
+        height: 80%;
+        border-radius: 10vw;
+    
+    }
+
+    .main .right-menu .updates .item img{
+
+        width: 17%;
+        height: 100%;
+        border-radius: 5vw;
+    
+    }
+
+
+    .main .right-menu .analytics .item .fa-user ,.main .right-menu .analytics .item .fa-bag-shopping ,.main .right-menu .analytics .item .fa-cart-shopping{
+
+        width: 18%;
+    
+    }
+    
+
+    .main .body .container .cards .card .pie svg{
+
+        width: 150;
+    
+    }
+    
+
+
+}
+
+@media screen and (min-width:2560px) {
+
+
+    .main .body .container .cards .card .pie svg{
+
+        width: 230;
+    
+    }
+    
+
+
+}
+
+@media screen and (min-width:3200px) {
+
+
+    .main .body .container .cards .card .pie svg{
+
+        width: 290;
+    
+    }
+    
+
+
+}
+
+@media screen and (min-width:3840px) {
+
+
+    .main .body .container .cards .card .pie svg{
+
+        width: 350;
+    
+    }
+    
+
+
+}
+
+@media screen and (max-width:700px) {
+    
+    .main{
+        display: none;
+    }
+
+    .mobile-version{
+        display: flex;
+
+    }
+
+}
